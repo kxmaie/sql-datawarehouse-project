@@ -7,7 +7,8 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 🏗️ Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
-<img width="983" height="692" alt="image" src="https://github.com/user-attachments/assets/a50d7c09-e41e-4b65-8d7e-00b6c598a1b1" />
+<img width="945" height="675" alt="image" src="https://github.com/user-attachments/assets/3d3c9700-468c-4a3e-ae88-325207c529d1" />
+
 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
